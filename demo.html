@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<!-- test?hid=&email=lahno95%40mail.ru&password=dadfasdfasdf&birtydate=2024-01-14&color=%239b4646 -->
+
+<body>
+    <form action="/test">
+        <input type="hidden" name="hid" value="1">
+        <div>
+            <label for="email">Введите Email</label>
+            <input type="email" placeholder="Email пользователя" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">Введите password</label>
+            <input type="password" placeholder="Password пользователя" id="password" name="password" required>
+        </div>
+        <button type="submit">Кнопка</button>
+
+        <div>
+            <label for="birtydate">Дата рождения</label>
+            <input type="date" placeholder="Дата рождения пользователя" id="birtydate" name="birtydate" required>
+            <input type="button" value="input Кнопка 2">
+            <input type="submit" value="input Кнопка submit">
+        </div>
+        <div>
+            <label for="color">Любимый цвет</label>
+            <input type="color" id="color" name="color" required>
+        </div>
+
+
+    </form>
+    <button>Кнопка вне форми</button>
+    <hr />
+
+    <form action="#">
+        <div>
+            <label for="text">Поиск youtube</label>
+            <input type="text" placeholder="Введите тект" id="text" name="search_query" title="Нужно ввести запрос"
+                required minlength="3" maxlength="100">
+
+            <button type="submit">Поиск</button>
+        </div>
+        <div>
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">Согласен с бработкой данних чекбокс</label>
+        </div>
+        <div>
+            <input type="radio" name="1" id="all" value="true">
+            <label for="all">Согласен с бработкой данних радио</label>
+        </div>
+        <div>
+            <input type="radio" name="1" id="all" value="fals">
+            <label for="all">Не согласен с бработкой данних радио</label>
+        </div>
+        <div>
+            <label for="topic">Тематика</label>
+            <select name="topic" id="topic">
+                <option value="1">Все</option>
+                <optgroup label="Популярние">
+                    <option value="2">Животние</option>
+                    <option value="3">Разработка</option>
+                </optgroup>
+
+            </select>
+        </div>
+        <div>
+            <label for="volume">Громкость</label>
+            <input type="range" name="volume" id="volume" min="0" max="1000" step="2">
+        </div>
+        <div>
+            <label for="num">Оценка</label>
+            <input type="number" name="num" id="num" min="1" max="12" step="1">
+        </div>
+        <div>
+            <label for="text">Комментарий</label>
+            <textarea name="text" id="text" cols="30" rows="10" placeholder="Введите текст"></textarea>
+        </div>
+
+
+
+    </form>
+
+
+
+
+
+
+
+</body>
+
+</html>
