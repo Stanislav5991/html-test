@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -12,25 +13,26 @@
         <h1>Свяжитесь со мной</h1>
 
         <form action="contact">
-            <div>
+            <div class="block boxshadow">
                 <label for="email">E-mail*</label>
-                <input type="email" placeholder="Введите email" name="email" id="email" required>
+                <input type="email" placeholder="Введите email" name="email" id="email" class="fieldsStyle" required>
             </div>
-            <div>
+            <div class="block">
                 <label for="telegram">Telegram</label>
-                <input type="text" placeholder="Введите Telegram" name="telegram" id="telegram">
+                <input type="text" placeholder="Введите Telegram" name="telegram" id="telegram" class="fieldsStyle">
             </div>
-            <div>
+            <div class="block">
                 <label for="topic">Тема*</label>
-                <select name="topic" id="topic" required>
+                <select name="topic" id="topic" class="fieldsStyle" required>
                     <option value="courses">Преобретение курсов</option>
                     <option value="merch">Преобретение мерча</option>
                     <option value="books">Преобретение книг</option>
                 </select>
             </div>
-            <div>
+            <div class="block">
                 <label for="textcom">Комментарий</label>
-                <textarea name="textcom" id="textcom" cols="30" rows="4" placeholder="Введите текст"></textarea>
+                <textarea name="textcom" id="textcom" cols="30" rows="4" class="fieldsStyle"
+                    placeholder="Введите текст"></textarea>
             </div>
             <div>
                 <button>Отправить</button>

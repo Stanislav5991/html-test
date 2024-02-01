@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1d1e27;
+}
+
+h1 {
+    color: #e5e7eb;
+    font-size: 36px;
+    line-height: 1px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    color: #e5e7eb;
+    background-color: #6a36c7;
+}
+
+.fieldsStyle {
+    color: #e5e7eb;
+
+    background-color: #2e2c3c;
+}
+
+::placeholder {
+    color: #e5e7eb;
+}
+
+.block {
+    color: #e5e7eb;
+    margin: 15px;
+    border-radius: 1px;
+    /* background-color: red */
+}
+
+/* .boxshadow {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
